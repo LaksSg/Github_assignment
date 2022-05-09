@@ -1,0 +1,92 @@
+Script started on 2022-04-23 11:06:57+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="83" LINES="43"]
+]0;root@TIGER02015: ~root@TIGER02015:~# git config --list --sg[Khow-origin
+[?1h=[K[?1l>]0;root@TIGER02015: ~root@TIGER02015:~# git config --global user.name "Lakshmi Ilanko"
+]0;root@TIGER02015: ~root@TIGER02015:~# git config --global user.email lakshmi.ilanko@tieran[K[K[K[Kgeraba[K[Knalytics.com [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Km
+]0;root@TIGER02015: ~root@TIGER02015:~# git config --global init.defaultBranch main
+]0;root@TIGER02015: ~root@TIGER02015:~# git config --list
+[?1h=user.name=Lakshmi Ilanko[m
+user.email=lakshmi.ilanko@tigeranalytics.com[m
+init.defaultbranch=main[m
+[K[?1l>]0;root@TIGER02015: ~root@TIGER02015:~# git config user.name
+Lakshmi Ilanko
+]0;root@TIGER02015: ~root@TIGER02015:~# git add -h
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+]0;root@TIGER02015: ~root@TIGER02015:~# cd/d[Kd[KDocuments[K[K[K[K[K[K[K[K[K[K mnt/[K[K[K[K[K[K[K[H[2J]0;root@TIGER02015: ~root@TIGER02015:~# vi .[K[K[K[Kcode bash[K[K[K[K.bashrc
+]0;root@TIGER02015: ~root@TIGER02015:~# cd /mnt
+]0;root@TIGER02015: /mntroot@TIGER02015:/mnt# cd /[K[K[K[K..
+..: command not found
+]0;root@TIGER02015: /mntroot@TIGER02015:/mnt# cd ..
+]0;root@TIGER02015: /root@TIGER02015:/# cd /mnt/Doc[K[K[K[K[3@(reverse-i-search)`':[Cm': cd /mnt[1@n[C[C[C[C[C[C[C[1@t[C[C[C[C[C[C[C/': cd /mnt/c/Users/lakshmi.ilanko/[7P]0;root@TIGER02015: /root@TIGER02015:/#]0;root@TIGER02015: /root@TIGER02015:/# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CDOc[K[Koc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# ..
+..: command not found
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# cd ..
+]0;root@TIGER02015: /mntroot@TIGER02015:/mnt# cd ..
+]0;root@TIGER02015: /root@TIGER02015:/# cd /mnt/[3@(reverse-i-search)`':[C[C[C[C[C[C[C[C[Cl': git config --lista': git config --global user.email lakshmi.ilanko@tigeranalytics.com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck': git config --global user.email lakshmi.ilanko@tigeranalytics.com[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]0;root@TIGER02015: /root@TIGER02015:/# git config --global user.email lakshmi.ilanko@tigeranalytics.com [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[31Plakshmi.ilanko@tigeranalytics.com
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[3@(reverse-i-search)`':[Cm': git config --global user.name "Lakshmi Ilanko"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Pn': cd /mnt/c/Users/lakshmi.ilanko/[1@t[C[C[C[C[C[C[C[6P]0;root@TIGER02015: /root@TIGER02015:/#]0;root@TIGER02015: /root@TIGER02015:/# [C[C[C[C[C
+bash: cd: /mnt/c/Users/lakshmi.ilanko/: No such file or directory
+]0;root@TIGER02015: /root@TIGER02015:/# cd /mnt/c/Users/lakshmi.ilanko/[9P/Users/lakshmi.ilanko/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd /mnt/c
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# ls
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# lscd /mnt/c/Users/lakshmi.ilanko/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ks
+bash: cd: /mnt/c/Users: No such file or directory
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# [2P(reverse-i-search)`':[Cm': cd /mnt/c/Users[1@n[C[C[C[C[C[C[C[1@t[C[C[C[C[C[C[C[1P]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c#]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/laks[K[K[K[K[K/
+bash: cd: /mnt/c/Users/: No such file or directory
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# history | gre[ [K[Kp exercise
+   58  cd [01;31m[Kexercise[m[K-data/
+   79  cd [01;31m[Kexercise[m[K-data/creatures/
+   94  cd [01;31m[Kexercise[m[K-data/writing/
+  139  cd [01;31m[Kexercise[m[K-data/
+  143  cd [01;31m[Kexercise[m[K-data/writing/thesis/
+  212  cd [01;31m[Kexercise[m[K-data/proteins/
+  231  cd ../[01;31m[Kexercise[m[K-data/writing/
+  261  cd [01;31m[Kexercise[m[K-data/animal-counts/
+  282  cd [01;31m[Kexercise[m[K-data/creatures/
+  339  history | grep [01;31m[Kexercise[m[K
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# history | grep exercise[K[K[K[K[K[K[K[Kmy
+  146  touch [01;31m[Kmy[m[K_file.txt
+  206  cat [01;31m[Kmy[m[K_unix_session
+  256  code [01;31m[Kmy[m[K_unix_session 
+  316  cat [01;31m[Kmy[m[K_unix_session 
+  318  code [01;31m[Kmy[m[K_unix_session
+  340  history | grep [01;31m[Kmy[m[K
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# history | grep my [K[K[Kshell_e[Klession
+  341  history | grep [01;31m[Kshell_lession[m[K
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# history | grep shell_lession[C[1Pon[1Ponson
+  342  history | grep [01;31m[Kshell_lesson[m[K
+]0;root@TIGER02015: /mnt/croot@TIGER02015:/mnt/c# history | grep shell_lesson[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp mnt
+   12  ls | grep [01;31m[Kmnt[m[K
+   18  cd [01;31m[Kmnt[m[K
+   33  cd/[01;31m[Kmnt[m[K/c/Users/lakshmi.ilanko/
+   36  cd /[01;31m[Kmnt[m[K/c/Users/lakshmi.ilanko/
+   39  cd /[01;31m[Kmnt[m[K/c/Users/lakshmi.ilanko/
+   71  cd /[01;31m[Kmnt[m[K/c/Users/lakshmi.ilanko/
+   77  cd /[01;31m[Kmnt[m[K
+  258  cd /[01;31m[Kmnt[m[K/c/Users/lakshmi.ilanko/
+  328  cd /[01;31m[Kmnt[m[K
+  331  cd /[01;31m[Kmnt[m[K/cScript started on 2022-05-09 11:28:18+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;root@TIGER02015: ~root@TIGER02015:~# git init
+Initialized empty Git repository in /root/.git/
+(base) ]0;root@TIGER02015: ~root@TIGER02015:~# exit
+exit
+
+Script done on 2022-05-09 11:29:05+05:30 [COMMAND_EXIT_CODE="0"]
