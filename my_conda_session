@@ -1,0 +1,335 @@
+Script started on 2022-05-09 12:30:20+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda --versiib[K[Kon
+conda 4.11.0
+(base) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda create --name snowflakes biopython
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | done
+Solving environment: - \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.11.0
+  latest version: 4.12.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /root/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.78             |   py39h7f8727e_0         2.2 MB
+    blas-1.0                   |              mkl           6 KB
+    ca-certificates-2022.4.26  |       h06a4308_0         124 KB
+    intel-openmp-2021.4.0      |    h06a4308_3561         4.2 MB
+    mkl-2021.4.0               |     h06a4308_640       142.6 MB
+    mkl-service-2.4.0          |   py39h7f8727e_0          59 KB
+    mkl_fft-1.3.1              |   py39hd3c417c_0         182 KB
+    mkl_random-1.2.2           |   py39h51133e4_0         309 KB
+    numpy-1.21.5               |   py39he7a7128_2          10 KB
+    numpy-base-1.21.5          |   py39hf524024_2         4.9 MB
+    python-3.9.12              |       h12debd9_0        19.1 MB
+    setuptools-61.2.0          |   py39h06a4308_0        1011 KB
+    sqlite-3.38.3              |       hc218d9a_0         1.0 MB
+    tzdata-2022a               |       hda174b7_0         109 KB
+    xz-5.2.5                   |       h7f8727e_1         339 KB
+    ------------------------------------------------------------
+                                           Total:       176.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-4.5-1_gnu
+  biopython          pkgs/main/linux-64::biopython-1.78-py39h7f8727e_0
+  blas               pkgs/main/linux-64::blas-1.0-mkl
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.4.26-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2021.10.8-py39h06a4308_2
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.35.1-h7274673_9
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.3.0-h5101ec6_17
+  libgomp            pkgs/main/linux-64::libgomp-9.3.0-h5101ec6_17
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.3.0-hd4cf53a_17
+  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py39h7f8727e_0
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py39hd3c417c_0
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py39h51133e4_0
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h7f8727e_2
+  numpy              pkgs/main/linux-64::numpy-1.21.5-py39he7a7128_2
+  numpy-base         pkgs/main/linux-64::numpy-base-1.21.5-py39hf524024_2
+  openssl            pkgs/main/linux-64::openssl-1.1.1n-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-21.2.4-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.12-h12debd9_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py39h06a4308_0
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1
+  sqlite             pkgs/main/linux-64::sqlite-3.38.3-hc218d9a_0
+  tk                 pkgs/main/linux-64::tk-8.6.11-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-3.9.12        | 19.1 MB   |                                                                               |   0% python-3.9.12        | 19.1 MB   | #4                                                                            |   2% python-3.9.12        | 19.1 MB   | ###########3                                                                  |  15% python-3.9.12        | 19.1 MB   | ######################3                                                       |  29% python-3.9.12        | 19.1 MB   | ###################################                                           |  46% python-3.9.12        | 19.1 MB   | ##############################################6                               |  61% python-3.9.12        | 19.1 MB   | ##########################################################1                   |  76% python-3.9.12        | 19.1 MB   | #####################################################################3        |  90% python-3.9.12        | 19.1 MB   | ############################################################################# | 100% 
+setuptools-61.2.0    | 1011 KB   |                                                                               |   0% setuptools-61.2.0    | 1011 KB   | ############################################################################# | 100% setuptools-61.2.0    | 1011 KB   | ############################################################################# | 100% 
+ca-certificates-2022 | 124 KB    |                                                                               |   0% ca-certificates-2022 | 124 KB    | ############################################################################# | 100% ca-certificates-2022 | 124 KB    | ############################################################################# | 100% 
+intel-openmp-2021.4. | 4.2 MB    |                                                                               |   0% intel-openmp-2021.4. | 4.2 MB    | ##############################6                                               |  40% intel-openmp-2021.4. | 4.2 MB    | ############################################################################# | 100% intel-openmp-2021.4. | 4.2 MB    | ############################################################################# | 100% 
+blas-1.0             | 6 KB      |                                                                               |   0% blas-1.0             | 6 KB      | ############################################################################# | 100% blas-1.0             | 6 KB      | ############################################################################# | 100% 
+sqlite-3.38.3        | 1.0 MB    |                                                                               |   0% sqlite-3.38.3        | 1.0 MB    | ############################################################################# | 100% sqlite-3.38.3        | 1.0 MB    | ############################################################################# | 100% 
+mkl_random-1.2.2     | 309 KB    |                                                                               |   0% mkl_random-1.2.2     | 309 KB    | ############################################################################# | 100% mkl_random-1.2.2     | 309 KB    | ############################################################################# | 100% 
+biopython-1.78       | 2.2 MB    |                                                                               |   0% biopython-1.78       | 2.2 MB    | 5                                                                             |   1% biopython-1.78       | 2.2 MB    | ###9                                                                          |   5% biopython-1.78       | 2.2 MB    | ######1                                                                       |   8% biopython-1.78       | 2.2 MB    | ##########6                                                                   |  14% biopython-1.78       | 2.2 MB    | ###############                                                               |  20% biopython-1.78       | 2.2 MB    | ###################5                                                          |  25% biopython-1.78       | 2.2 MB    | ########################                                                      |  31% biopython-1.78       | 2.2 MB    | #############################6                                                |  38% biopython-1.78       | 2.2 MB    | ################################4                                             |  42% biopython-1.78       | 2.2 MB    | ##################################6                                           |  45% biopython-1.78       | 2.2 MB    | #######################################1                                      |  51% biopython-1.78       | 2.2 MB    | #########################################9                                    |  54% biopython-1.78       | 2.2 MB    | ############################################7                                 |  58% biopython-1.78       | 2.2 MB    | #################################################7                            |  65% biopython-1.78       | 2.2 MB    | ####################################################5                         |  68% biopython-1.78       | 2.2 MB    | #######################################################3                      |  72% biopython-1.78       | 2.2 MB    | ###########################################################7                  |  78% biopython-1.78       | 2.2 MB    | ##############################################################5               |  81% biopython-1.78       | 2.2 MB    | ################################################################8             |  84% biopython-1.78       | 2.2 MB    | ######################################################################4       |  91% biopython-1.78       | 2.2 MB    | ############################################################################# | 100% biopython-1.78       | 2.2 MB    | ############################################################################# | 100% 
+tzdata-2022a         | 109 KB    |                                                                               |   0% tzdata-2022a         | 109 KB    | ############################################################################# | 100% tzdata-2022a         | 109 KB    | ############################################################################# | 100% 
+xz-5.2.5             | 339 KB    |                                                                               |   0% xz-5.2.5             | 339 KB    | ############################################################################# | 100% xz-5.2.5             | 339 KB    | ############################################################################# | 100% 
+mkl-2021.4.0         | 142.6 MB  |                                                                               |   0% mkl-2021.4.0         | 142.6 MB  | 8                                                                             |   1% mkl-2021.4.0         | 142.6 MB  | ##1                                                                           |   3% mkl-2021.4.0         | 142.6 MB  | ###4                                                                          |   5% mkl-2021.4.0         | 142.6 MB  | ####8                                                                         |   6% mkl-2021.4.0         | 142.6 MB  | ######2                                                                       |   8% mkl-2021.4.0         | 142.6 MB  | #######6                                                                      |  10% mkl-2021.4.0         | 142.6 MB  | ########9                                                                     |  12% mkl-2021.4.0         | 142.6 MB  | ##########3                                                                   |  13% mkl-2021.4.0         | 142.6 MB  | ###########7                                                                  |  15% mkl-2021.4.0         | 142.6 MB  | #############                                                                 |  17% mkl-2021.4.0         | 142.6 MB  | ##############5                                                               |  19% mkl-2021.4.0         | 142.6 MB  | ###############9                                                              |  21% mkl-2021.4.0         | 142.6 MB  | #################3                                                            |  22% mkl-2021.4.0         | 142.6 MB  | ##################6                                                           |  24% mkl-2021.4.0         | 142.6 MB  | ####################                                                          |  26% mkl-2021.4.0         | 142.6 MB  | #####################3                                                        |  28% mkl-2021.4.0         | 142.6 MB  | ######################7                                                       |  29% mkl-2021.4.0         | 142.6 MB  | ########################                                                      |  31% mkl-2021.4.0         | 142.6 MB  | #########################3                                                    |  33% mkl-2021.4.0         | 142.6 MB  | ##########################5                                                   |  34% mkl-2021.4.0         | 142.6 MB  | ###########################8                                                  |  36% mkl-2021.4.0         | 142.6 MB  | #############################2                                                |  38% mkl-2021.4.0         | 142.6 MB  | ##############################5                                               |  40% mkl-2021.4.0         | 142.6 MB  | ###############################7                                              |  41% mkl-2021.4.0         | 142.6 MB  | #################################1                                            |  43% mkl-2021.4.0         | 142.6 MB  | ##################################3                                           |  45% mkl-2021.4.0         | 142.6 MB  | ###################################7                                          |  46% mkl-2021.4.0         | 142.6 MB  | #####################################                                         |  48% mkl-2021.4.0         | 142.6 MB  | ######################################2                                       |  50% mkl-2021.4.0         | 142.6 MB  | #######################################5                                      |  51% mkl-2021.4.0         | 142.6 MB  | ########################################7                                     |  53% mkl-2021.4.0         | 142.6 MB  | ##########################################                                    |  55% mkl-2021.4.0         | 142.6 MB  | ###########################################3                                  |  56% mkl-2021.4.0         | 142.6 MB  | ############################################6                                 |  58% mkl-2021.4.0         | 142.6 MB  | #############################################9                                |  60% mkl-2021.4.0         | 142.6 MB  | ###############################################2                              |  61% mkl-2021.4.0         | 142.6 MB  | ################################################5                             |  63% mkl-2021.4.0         | 142.6 MB  | #################################################8                            |  65% mkl-2021.4.0         | 142.6 MB  | ###################################################1                          |  66% mkl-2021.4.0         | 142.6 MB  | ####################################################2                         |  68% mkl-2021.4.0         | 142.6 MB  | #####################################################4                        |  69% mkl-2021.4.0         | 142.6 MB  | ######################################################8                       |  71% mkl-2021.4.0         | 142.6 MB  | ########################################################                      |  73% mkl-2021.4.0         | 142.6 MB  | #########################################################2                    |  74% mkl-2021.4.0         | 142.6 MB  | ##########################################################5                   |  76% mkl-2021.4.0         | 142.6 MB  | ###########################################################7                  |  78% mkl-2021.4.0         | 142.6 MB  | ############################################################9                 |  79% mkl-2021.4.0         | 142.6 MB  | ##############################################################1               |  81% mkl-2021.4.0         | 142.6 MB  | ###############################################################3              |  82% mkl-2021.4.0         | 142.6 MB  | ################################################################5             |  84% mkl-2021.4.0         | 142.6 MB  | #################################################################7            |  85% mkl-2021.4.0         | 142.6 MB  | ##################################################################8           |  87% mkl-2021.4.0         | 142.6 MB  | ###################################################################8          |  88% mkl-2021.4.0         | 142.6 MB  | ####################################################################9         |  90% mkl-2021.4.0         | 142.6 MB  | ######################################################################        |  91% mkl-2021.4.0         | 142.6 MB  | #######################################################################3      |  93% mkl-2021.4.0         | 142.6 MB  | ########################################################################4     |  94% mkl-2021.4.0         | 142.6 MB  | #########################################################################7    |  96% mkl-2021.4.0         | 142.6 MB  | ###########################################################################1  |  98% mkl-2021.4.0         | 142.6 MB  | ############################################################################5 |  99% mkl-2021.4.0         | 142.6 MB  | ############################################################################# | 100% 
+mkl_fft-1.3.1        | 182 KB    |                                                                               |   0% mkl_fft-1.3.1        | 182 KB    | ############################################################################# | 100% mkl_fft-1.3.1        | 182 KB    | ############################################################################# | 100% 
+numpy-base-1.21.5    | 4.9 MB    |                                                                               |   0% numpy-base-1.21.5    | 4.9 MB    | #########################7                                                    |  33% numpy-base-1.21.5    | 4.9 MB    | #############################################################                 |  79% numpy-base-1.21.5    | 4.9 MB    | ############################################################################# | 100% 
+numpy-1.21.5         | 10 KB     |                                                                               |   0% numpy-1.21.5         | 10 KB     | ############################################################################# | 100% numpy-1.21.5         | 10 KB     | ############################################################################# | 100% 
+mkl-service-2.4.0    | 59 KB     |                                                                               |   0% mkl-service-2.4.0    | 59 KB     | ############################################################################# | 100% mkl-service-2.4.0    | 59 KB     | ############################################################################# | 100% 
+Preparing transaction: - \ | / - done
+Verifying transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Executing transaction: | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda info --envs
+# conda environments:
+#
+                         /root/anaconda3
+base                  *  /root/miniconda3
+snowflakes               /root/miniconda3/envs/snowflakes
+ta-tigerml               /root/miniconda3/envs/ta-tigerml
+
+(base) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda activate snowflakes
+(snowflakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda activate snowflakes[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kenvs ^M[K[K
+
+CommandNotFoundError: No command 'conda envs'.
+Did you mean 'conda env'?
+
+(snowflakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda env
+usage: conda-env [-h] {create,export,list,remove,update,config} ...
+
+positional arguments:
+  {create,export,list,remove,update,config}
+    create              Create an environment based on an environment file
+    export              Export a given environment
+    list                List the Conda environments
+    remove              Remove an environment
+    update              Update the current environment based on environment file
+    config              Configure a conda environment
+
+optional arguments:
+  -h, --help            Show this help message and exit.
+
+conda commands available from other packages:
+  content-trust
+  env
+(snowflakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda info --envs
+# conda environments:
+#
+                         /root/anaconda3
+base                     /root/miniconda3
+snowflakes            *  /root/miniconda3/envs/snowflakes
+ta-tigerml               /root/miniconda3/envs/ta-tigerml
+
+(snowflakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# python
+Python 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> conda create --name snakes python=3.9
+  File "<stdin>", line 1
+    conda create --name snakes python=3.9
+          ^
+SyntaxError: invalid syntax
+>>> conda create --name snakes python=3.9
+  File "<stdin>", line 1
+    conda create --name snakes python=3.9
+          ^
+SyntaxError: invalid syntax
+>>> conda create --name snakes python=3.9[C[C[C[Cexit()[K[1P()[1Ptimport tigerml[C[C[C[Cfrom tigerml.viz import DataExplorer[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda --version
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'conda' is not defined
+>>> conda deactivate
+  File "<stdin>", line 1
+    conda deactivate
+          ^
+SyntaxError: invalid syntax
+>>> cd ..
+  File "<stdin>", line 1
+    cd ..
+        ^
+SyntaxError: invalid syntax
+>>> 
+>>> [K>>> 
+(snowflakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# pythonconda info --envsenv[Ksactivate snowflakes[8Pinfo --envs[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda create --name snakes python=3.9
+Collecting package metadata (current_repodata.json): - \ | / - \ done
+Solving environment: / done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.11.0
+  latest version: 4.12.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /root/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-4.5-1_gnu
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.4.26-h06a4308_0
+  certifi            pkgs/main/linux-64::certifi-2021.10.8-py39h06a4308_2
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.35.1-h7274673_9
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-9.3.0-h5101ec6_17
+  libgomp            pkgs/main/linux-64::libgomp-9.3.0-h5101ec6_17
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-9.3.0-hd4cf53a_17
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h7f8727e_2
+  openssl            pkgs/main/linux-64::openssl-1.1.1n-h7f8727e_0
+  pip                pkgs/main/linux-64::pip-21.2.4-py39h06a4308_0
+  python             pkgs/main/linux-64::python-3.9.12-h12debd9_0
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1
+  setuptools         pkgs/main/linux-64::setuptools-61.2.0-py39h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.38.3-hc218d9a_0
+  tk                 pkgs/main/linux-64::tk-8.6.11-h1ccaba5_0
+  tzdata             pkgs/main/noarch::tzdata-2022a-hda174b7_0
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0
+  xz                 pkgs/main/linux-64::xz-5.2.5-h7f8727e_1
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h7f8727e_2
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: \ | / - \ | done
+Verifying transaction: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(snowflakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda activate snakes
+(snakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda info --envs
+# conda environments:
+#
+                         /root/anaconda3
+base                     /root/miniconda3
+snakes                *  /root/miniconda3/envs/snakes
+snowflakes               /root/miniconda3/envs/snowflakes
+ta-tigerml               /root/miniconda3/envs/ta-tigerml
+
+(snakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# python --version
+Python 3.9.12
+(snakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda search beautifulsoup4
+Loading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+(snakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# conda list
+# packages in environment at /root/miniconda3/envs/snakes:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             4.5                       1_gnu  
+ca-certificates           2022.4.26            h06a4308_0  
+certifi                   2021.10.8        py39h06a4308_2  
+ld_impl_linux-64          2.35.1               h7274673_9  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 9.3.0               h5101ec6_17  
+libgomp                   9.3.0               h5101ec6_17  
+libstdcxx-ng              9.3.0               hd4cf53a_17  
+ncurses                   6.3                  h7f8727e_2  
+openssl                   1.1.1n               h7f8727e_0  
+pip                       21.2.4           py39h06a4308_0  
+python                    3.9.12               h12debd9_0  
+readline                  8.1.2                h7f8727e_1  
+setuptools                61.2.0           py39h06a4308_0  
+sqlite                    3.38.3               hc218d9a_0  
+tk                        8.6.11               h1ccaba5_0  
+tzdata                    2022a                hda174b7_0  
+wheel                     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.5                h7f8727e_1  
+zlib                      1.2.12               h7f8727e_2  
+(snakes) ]0;root@TIGER02015: ~/Github_assignmentroot@TIGER02015:~/Github_assignment# exit
+exit
+
+Script done on 2022-05-09 13:25:35+05:30 [COMMAND_EXIT_CODE="0"]
